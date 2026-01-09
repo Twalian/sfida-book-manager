@@ -56,6 +56,10 @@ def handle_book_actions(book_id):
                 ui.print_success("Valutazione salvata!")
             except ValueError as e:
                 ui.print_error(str(e))
+        elif choice=='U':
+            t, a, g, p = ui.ask_book_details()
+            books.update_book(book_id,t, a, g, p)
+            ui.print_success("Libro modificato con successo!!")
 
 def main():
     data.init_db()

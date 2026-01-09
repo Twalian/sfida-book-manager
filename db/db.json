@@ -1,23 +1,11 @@
 {
   "books": [
     {
-      "id": "aefd5634-3a00-48ad-9ded-2a280bd7f979",
-      "title": "Orbit orbit",
-      "author": "Caparezza",
-      "genre": "Fumetto",
-      "pages": 220,
-      "status": "reading",
-      "current_page": 50,
-      "rating": null,
-      "added_at": "2026-01-09T10:13:58.110331",
-      "finished_at": null
-    },
-    {
       "id": "f843bc13-5491-40ab-a5fb-a7578e2b38d0",
       "title": "Il signore degli anelli",
       "author": "Tolkien",
-      "genre": "Fantasy",
-      "pages": 1050,
+      "genre": "1050",
+      "pages": 550,
       "status": "todo",
       "current_page": 0,
       "rating": null,
@@ -35,6 +23,30 @@
       "rating": 4,
       "added_at": "2026-01-09T10:14:58.046280",
       "finished_at": "2026-01-09T10:21:28.886392"
+    },
+    {
+      "id": "5d37fef1-425b-40e3-8276-ef100b649f5a",
+      "title": "1984",
+      "author": "Orwell",
+      "genre": "Classico",
+      "pages": 450,
+      "status": "todo",
+      "current_page": 0,
+      "rating": null,
+      "added_at": "2026-01-09T10:45:49.085306",
+      "finished_at": null
+    },
+    {
+      "id": "6cb5ffc6-14ce-4141-a04e-c94bfa97bf89",
+      "title": "Caparezza",
+      "author": "Orbit Orbit",
+      "genre": "Fumetto",
+      "pages": 200,
+      "status": "todo",
+      "current_page": 0,
+      "rating": null,
+      "added_at": "2026-01-09T11:21:58.190918",
+      "finished_at": null
     }
   ]
 }

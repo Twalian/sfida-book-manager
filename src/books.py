@@ -84,3 +84,8 @@ def rate_book(book_id: str, rating: int):
 
 def remove_book(book_id: str):
     data.delete_book_from_db(book_id)
+    
+
+def update_book(book_id: str, author: str, titolo:str, genere:str,pages:int):
+    remove_book(book_id)
+    add_new_book(titolo,author,genere,pages)

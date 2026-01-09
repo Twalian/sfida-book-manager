@@ -80,6 +80,7 @@ def print_book_details(book: Dict):
     print("M. Modifica stato/pagina")
     print("C. Cancella libro")
     print("V. Valuta (solo se completato)")
+    print("U. Modifica i dati del libro")
     print("I. Indietro")
 
 def ask_book_details():
