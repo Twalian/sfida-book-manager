@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": "aefd5634-3a00-48ad-9ded-2a280bd7f979",
+      "title": "Orbit orbit",
+      "author": "Caparezza",
+      "genre": "Fumetto",
+      "pages": 220,
+      "status": "reading",
+      "current_page": 50,
+      "rating": null,
+      "added_at": "2026-01-09T10:13:58.110331",
+      "finished_at": null
+    },
+    {
+      "id": "f843bc13-5491-40ab-a5fb-a7578e2b38d0",
+      "title": "Il signore degli anelli",
+      "author": "Tolkien",
+      "genre": "1050",
+      "pages": 550,
+      "status": "todo",
+      "current_page": 0,
+      "rating": null,
+      "added_at": "2026-01-09T10:14:20.086197",
+      "finished_at": null
+    },
+    {
+      "id": "3e5b6308-49ad-4a49-90b1-60f79b8990a5",
+      "title": "Alaska",
+      "author": "Green",
+      "genre": "Romanzo",
+      "pages": 300,
+      "status": "done",
+      "current_page": 300,
+      "rating": 4,
+      "added_at": "2026-01-09T10:14:58.046280",
+      "finished_at": "2026-01-09T10:21:28.886392"
+    }
+  ]
+}
