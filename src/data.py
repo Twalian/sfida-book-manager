@@ -59,3 +59,11 @@ def find_book_by_id(book_id: str) -> Optional[Dict]:
         if book["id"] == book_id:
             return book
     return None
+
+def find_book_by_genre(genre: str) -> Optional[Dict]:
+    """Finds a book by ID."""
+    books = get_books()
+    for book in books:
+        if book["genre"] == genre:
+            return book
+    return None

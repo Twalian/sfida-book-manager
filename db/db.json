@@ -13,18 +13,6 @@
       "finished_at": null
     },
     {
-      "id": "3e5b6308-49ad-4a49-90b1-60f79b8990a5",
-      "title": "Alaska",
-      "author": "Green",
-      "genre": "Romanzo",
-      "pages": 300,
-      "status": "done",
-      "current_page": 300,
-      "rating": 4,
-      "added_at": "2026-01-09T10:14:58.046280",
-      "finished_at": "2026-01-09T10:21:28.886392"
-    },
-    {
       "id": "5d37fef1-425b-40e3-8276-ef100b649f5a",
       "title": "1984",
       "author": "Orwell",
@@ -46,6 +34,18 @@
       "current_page": 0,
       "rating": null,
       "added_at": "2026-01-09T11:21:58.190918",
+      "finished_at": null
+    },
+    {
+      "id": "f6811583-dbe1-4437-8f40-4add0638dec7",
+      "title": "Orwell",
+      "author": "1984",
+      "genre": "Classico",
+      "pages": 345,
+      "status": "todo",
+      "current_page": 0,
+      "rating": null,
+      "added_at": "2026-01-09T12:55:31.223154",
       "finished_at": null
     }
   ]

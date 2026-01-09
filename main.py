@@ -84,8 +84,15 @@ def main():
             ui.print_success("Libro aggiunto!")
             
         elif choice == '2': # Listing all
-            all_books = books.get_all_books()
-            ui.print_book_list(all_books, "I miei libri")
+            ui.menu_book()
+            op=input("Scegli l'operazione: ")
+            if op=='1':
+                all_books = books.get_all_books()
+                ui.print_book_list(all_books, "I miei libri")
+            elif op=='2':
+                genere=ui.get_input("I libri di quale genere stai carcando?")
+                libri=books.get_genre_books(genere)
+                ui.print_genre_books(libri,'Lista')
             
         elif choice == '3': # Todo
             bks = [b for b in books.get_all_books() if b['status'] == 'todo']

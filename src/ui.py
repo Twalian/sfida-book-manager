@@ -97,3 +97,19 @@ def ask_book_details():
         except ValueError:
             print("Inserisci un numero valido.")
     return title, author, genre, pages
+def menu_book():
+    print(f"""
+    1. Tutti i libri
+    2. Libri di un certo genere
+           """)
+    
+
+def print_genre_books(books: List[Dict], title: str = "Lista Libri"):
+    if not books:
+        print_message(f"{title}: Nessun libro trovato.")
+        return
+
+    print(f"\n--- {title} ({len(books)}) ---")
+    for i in books:
+        print(f"{i.values()}")
+    print("")

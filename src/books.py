@@ -89,3 +89,6 @@ def remove_book(book_id: str):
 def update_book(book_id: str, author: str, titolo:str, genere:str,pages:int):
     remove_book(book_id)
     add_new_book(titolo,author,genere,pages)
+
+def get_genre_books(genre:str):
+    return data.find_book_by_genre(genre)
